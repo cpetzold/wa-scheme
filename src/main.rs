@@ -1,5 +1,6 @@
 use core::fmt;
 use deku::prelude::*;
+use ron::ser::PrettyConfig;
 use serde::{Deserialize, Serialize};
 use std::env;
 use std::fs::File;
@@ -343,9 +344,15 @@ fn main() -> io::Result<()> {
 
     // let toml = toml::to_string(&scheme).unwrap();
     // let json = serde_json::to_string_pretty(&scheme).unwrap();
-    let yaml = serde_yaml::to_string(&scheme).unwrap();
+    // let yaml = serde_yaml::to_string(&scheme).unwrap();
 
-    println!("{}", yaml);
+    let mut serializer =
+        ron::ser::Serializer::new(std::io::stdout(), Some(PrettyConfig::new()), true).unwrap();
+    scheme
+        .serialize(&mut serializer)
+        .expect("Failed to serialize");
+
+    // println!("{}", ron);
 
     Ok(())
 }
