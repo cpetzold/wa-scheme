@@ -1,0 +1,9 @@
+[package]
+name = "wa-scheme"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+deku = "0.12"
+toml = "0.5.8"
+serde = { version = "1.0", features = ["derive"] }
