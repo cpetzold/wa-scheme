@@ -341,9 +341,11 @@ fn main() -> io::Result<()> {
 
     // println!("{:#?}", scheme);
 
-    let toml = toml::to_string(&scheme).unwrap();
+    // let toml = toml::to_string(&scheme).unwrap();
+    // let json = serde_json::to_string_pretty(&scheme).unwrap();
+    let yaml = serde_yaml::to_string(&scheme).unwrap();
 
-    println!("{}", toml);
+    println!("{}", yaml);
 
     Ok(())
 }

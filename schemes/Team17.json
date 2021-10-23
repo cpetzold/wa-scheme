@@ -1,0 +1,481 @@
+{
+  "header": {
+    "version": "ExtendedScheme"
+  },
+  "options": {
+    "hot_seat_delay": 5,
+    "retreat_time": 5,
+    "rope_retreat_time": 5,
+    "display_total_round_time": true,
+    "automatic_replays": true,
+    "fall_damage": 1,
+    "artillery_mode": false,
+    "bounty_mode": false,
+    "stockpiling_mode": "Off",
+    "worm_select": "On",
+    "sudden_death_event": "NuclearStrike",
+    "water_rise_rate": 2,
+    "weapon_crate_probability": 100,
+    "donor_cards": true,
+    "health_crate_probability": 0,
+    "health_crate_energy": 25,
+    "utility_crate_probability": 0,
+    "hazardous_object_types": 5,
+    "mine_delay": 3,
+    "dud_mines": false,
+    "manual_worm_placement": false,
+    "initial_worm_energy": 150,
+    "turn_time": 45,
+    "round_time": 12,
+    "number_of_wins": 2,
+    "blood": false,
+    "aqua_sheep": true,
+    "sheep_heaven": false,
+    "god_worms": false,
+    "indestructible_land": false,
+    "upgraded_grenade": false,
+    "upgraded_shotgun": false,
+    "upgraded_clusters": false,
+    "upgraded_longbow": false,
+    "team_weapons": false,
+    "super_weapons": true
+  },
+  "weapons": {
+    "bazooka": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "homing_missile": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "mortar": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "grenade": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "cluster_bomb": {
+      "ammunition": 0,
+      "power": 1,
+      "delay": 0,
+      "probability": 3
+    },
+    "skunk": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "petrol_bomb": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "banana_bomb": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 2
+    },
+    "handgun": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "shotgun": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "uzi": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "minigun": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "longbow": {
+      "ammunition": 0,
+      "power": 3,
+      "delay": 0,
+      "probability": 3
+    },
+    "airstrike": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "napalm_strike": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "mine": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "fire_punch": {
+      "ammunition": 10,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "dragon_ball": {
+      "ammunition": 10,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "kamikaze": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "prod": {
+      "ammunition": 10,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "battle_axe": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "blowtorch": {
+      "ammunition": 10,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "pneumatic_drill": {
+      "ammunition": 10,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "girder": {
+      "ammunition": 7,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "ninja_rope": {
+      "ammunition": 1,
+      "power": 4,
+      "delay": 0,
+      "probability": 0
+    },
+    "parachute": {
+      "ammunition": 10,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    },
+    "bungee": {
+      "ammunition": 10,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    },
+    "teleport": {
+      "ammunition": 10,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    },
+    "dynamite": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "sheep": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "baseball_bat": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "flame_thrower": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "homing_pigeon": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "mad_cow": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 2
+    },
+    "holy_hand_grenade": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "old_woman": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "sheep_launcher": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "super_sheep": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "mole_bomb": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 3
+    },
+    "jet_pack": {
+      "ammunition": 0,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    },
+    "low_gravity": {
+      "ammunition": 0,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    },
+    "laser_sight": {
+      "ammunition": 0,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    },
+    "fast_walk": {
+      "ammunition": 0,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    },
+    "invisibility": {
+      "ammunition": 0,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    },
+    "damage_x2": {
+      "ammunition": 0,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    }
+  },
+  "super_weapons": {
+    "freeze": {
+      "ammunition": 0,
+      "power": 0,
+      "delay": 0,
+      "probability": 0
+    },
+    "super_banana_bomb": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "mine_strike": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "girder_starter_pack": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "earthquake": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "scales_of_justice": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "ming_vase": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "mikes_carpet_bomb": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "patsys_magic_bullet": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "indian_nuclear_test": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "select_worm": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "salvation_army": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "mole_squadron": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "mb_bomb": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "concrete_donkey": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "suicide_bomber": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "sheep_strike": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "mail_strike": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    },
+    "armageddon": {
+      "ammunition": 0,
+      "power": 2,
+      "delay": 0,
+      "probability": 0
+    }
+  },
+  "extended_options": {
+    "data_version": 0,
+    "constant_wind": false,
+    "wind": 100,
+    "wind_bias": 15,
+    "gravity": 15728,
+    "terrain_friction": 62914,
+    "rope_knocking": 0,
+    "blood_level": 255,
+    "unrestrict_rope": false,
+    "auto_place_worms_by_ally": false,
+    "no_crate_probability": 255,
+    "maximum_crate_count_on_map_at_once": 5,
+    "sudden_death_disables_worm_select": true,
+    "sudden_death_worm_damage_per_turn": 5,
+    "phased_worms_allied": "Off",
+    "phased_worms_enemy": "Off",
+    "circular_aim": false,
+    "anti_lock_aim": false,
+    "worm_selection_doesnt_end_hot_seat": false,
+    "worm_selection_is_never_cancelled": false,
+    "batty_rope": false,
+    "rope_roll_drops": "Disabled",
+    "x_impact_loss_of_control": 0,
+    "keep_control_after_bumping_head": false,
+    "keep_control_after_skimming": "LoseControl",
+    "explosions_cause_fall_damage_is_triggered_by_explosions": false,
+    "explosions_push_all_objects": "False",
+    "undetermined_crates": "Default",
+    "undetermined_fuses": "False",
+    "pause_timer_while_firing": false,
+    "loss_of_control_doesnt_end_turn": true,
+    "weapon_use_doesnt_end_turn": false,
+    "above_option_doesnt_block_weapons": false,
+    "pneumatic_drill_imparts_velocity": "False",
+    "girder_assist_radius": "Default",
+    "petrol_turn_decay": 12800,
+    "petrol_touch_decay": 51,
+    "maximum_flamelet_count": 51230,
+    "maximum_projectile_speed": 536870912,
+    "maximum_rope_speed": 268435456,
+    "maximum_jetpack_speed": 83886080,
+    "game_engine_speed": 16777216,
+    "indian_rope_glitch": "False",
+    "herd_doubling_glitch": "Default",
+    "jetpack_bungee_glitch": "Default",
+    "angle_cheat_glitch": "False",
+    "glide_glitch": "False",
+    "skipwalking": "Facilitated"
+  }
+}
